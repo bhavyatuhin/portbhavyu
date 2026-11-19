@@ -28,7 +28,7 @@ export const portfolio = {
       title: 'Paradigm Shift',
       description: 'A project exploring how Earth environments can help us understand potential analogue locations for future lunar and Martian exploration.',
       note: 'NASA Space Apps · Collaborative work',
-      link: '#',
+      link: 'link: 'https://bhavyatuhin.github.io/Paradigm-Shift-/',',
     },
     {
       number: '02',
@@ -36,7 +36,7 @@ export const portfolio = {
       title: 'BANGUJ Bridge',
       description: 'A multilingual disaster-intelligence concept focused on making important information more accessible across language communities.',
       note: 'Collaborative work · Details to be confirmed',
-      link: '#',
+      link: 'https://ban-guj-bridge.vercel.app/',
     },
     {
       number: '03',
