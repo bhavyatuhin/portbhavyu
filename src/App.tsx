@@ -43,7 +43,13 @@ export default function App() {
 
       <section className="work-section" id="work">
         <SectionHeading index="02" kicker="SELECTED WORK" title="A few things taking shape." description="Projects, experiments and collaborations — a selection of work and ideas." />
-        <div className="project-list">{portfolio.projects.map((project) => <a className="project-row" href={project.link} key={project.number}>
+        <div className="project-list">{portfolio.projects.map((project) => <a
+  className="project-row"
+  href={project.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  key={project.number}
+>
           <span className="project-number">{project.number}</span><div className="project-main"><span className="project-type">{project.type}</span><h3>{project.title}</h3><p>{project.description}</p><span className="project-note">{project.note}</span></div><span className="project-arrow"><ArrowUpRight/></span>
         </a>)}</div>
       </section>
